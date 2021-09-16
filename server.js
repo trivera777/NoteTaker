@@ -14,6 +14,8 @@ app.use(express.json())
 app.use('/api', api)
 app.use(express.static('public'))
 
+require('./routers/index')
+require('./routers/htmlnotes')
 
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, './public/index.html'))
