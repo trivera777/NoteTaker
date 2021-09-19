@@ -1,6 +1,6 @@
 // dependencies
 const express = require('express')
-// const path = require('path')
+const path = require('path')
 const dataBase = require('./db/db.json')
 const fs = require('fs')
 const routes = require('./api/htmlroutes')
