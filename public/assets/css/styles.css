@@ -5,10 +5,28 @@ body {
   padding: 0;
 }
 
+.navbar {
+  background-color: #F46036;
+}
+
+.navbar-brand {
+  color: #171123;
+  font-size: 30px;
+}
+
+.navbar-brand:hover {
+  color: #171123;
+  font-weight: 700;
+}
+
 .save-note {
   display: none;
 }
 
+.btn:hover {
+  background-color: #F46036;
+
+}
 .icons i {
   margin-left: 15px;
   margin-right: 15px;
