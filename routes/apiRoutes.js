@@ -1,7 +1,7 @@
 const router = require('express').Router();
-const saveData = require('../helpers/saveData');
+const saveData = require('../db/data');
 
-router.get('/notes', function (req, res) {
+router.get('/', function (req, res) {
     saveData
         .retrieveNotes()
         .then(notes => res.json(notes))
