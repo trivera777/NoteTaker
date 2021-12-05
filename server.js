@@ -1,15 +1,16 @@
 const express = require("express");
-
 const app = express();
+
 const PORT = process.env.PORT || 3000;
 
 app.use(express.urlencoded({ extended: true }));
+
 app.use(express.json());
-app.use(express.static("public"));
 
-// require('./routes/apiRoutes')(app);
-// require('./routes/htmlRoutes')(app);
+app.use(express.static('public'));
+app.use(require("./routes/apiRoutes"));
+app.use(require("./routes/htmlRoutes"));
 
-app.listen(PORT, function() {
-    console.log(`App listening on PORT: ${PORT}`);
+app.listen(PORT, () => {
+    console.log(`Listening on port ${PORT}...`);
 });
