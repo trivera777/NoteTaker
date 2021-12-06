@@ -1,10 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+
 html,
 body {
   height: 100%;
   margin: 0;
   padding: 0;
+  font-family: 'Cutive Mono', monospace;
 }
 
+h1 {
+  font-family: 'Cutive Mono', monospace;
+}
 .navbar {
   background-color: #F46036;
 }
@@ -16,7 +22,7 @@ body {
 
 .navbar-brand:hover {
   color: #171123;
-  font-weight: 700;
+  font-weight: bolder;
 }
 
 .save-note {
@@ -46,6 +52,7 @@ body {
   resize: none;
   height: calc(100% - 63px);
   padding-top: 15px;
+  font-size: 30px;
 }
 
 .note-title {
