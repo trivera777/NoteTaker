@@ -12,7 +12,7 @@ An application to create and store notes with Express.js and retrieve note data 
 # Preview of Application
 ![Note Taker Preview](./public/assets/notetaker.png)
 
-# Link to Application
+# Live URL
 [Click here to take notes](https://tr-notetaker.herokuapp.com/)
 
 # Built With
