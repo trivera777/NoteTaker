@@ -9,8 +9,16 @@ An application to create and store notes with Express.js and retrieve note data 
 - SO THAT I can organize my thoughts and keep track of tasks I need to complete
 ```
 
-## Preview of Application
+# Preview of Application
 ![Note Taker Preview](./public/assets/notetaker.png)
 
-## Link to Application
+# Link to Application
 [Click here to take notes](https://tr-notetaker.herokuapp.com/)
+
+# Built With
+- HTML
+- CSS
+- Bootstrap 
+- JavaScript
+- Node.js
+  - Express.js
